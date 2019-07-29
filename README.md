@@ -8,6 +8,7 @@ After getting the text, we applied sentimental analysis to our text which result
 Steps:-
 
 Import the dataset Flickr 8K and store it in the file from where you can save it in pandas data frame.
+
 Cleansing of the caption is to be done i.e. removing punctuation and higher frequency words (doesn’t contain important information).
 Add two tokens named start and end in the captions.
 Create features for the images by applying the pre-trained model VGC16 and Inception V3.
