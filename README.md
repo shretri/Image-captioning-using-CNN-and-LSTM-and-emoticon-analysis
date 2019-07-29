@@ -10,6 +10,7 @@ Steps:-
 Import the dataset Flickr 8K and store it in the file from where you can save it in pandas data frame.
 Cleansing of the caption is to be done i.e. removing punctuation and higher frequency words (doesn’t contain important information).
 Add two tokens named start and end in the captions.
+
 Create features for the images by applying the pre-trained model VGC16 and Inception V3.
 Mapped image with the respective text. Then change the character into integers for entering it into the model as the model accepts only integers.
 Split training and testing data. Trained the model using training data.
